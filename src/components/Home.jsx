@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
-    <div className="m-5 flex flex-wrap items-center justify-center px-8">
-      <div className="flex-1 text-right px-8">
+    <div className=" flex flex-wrap items-center  ">
+      <div className="flex-1  px-8">
         <h1 className="text-2xl mb-5 font-bold">How To Build Your Own Workout Routine: Plans, Schedules, And Exercises</h1>
         <img src="src\assets\3.jpg" alt="" />
         <h2 className="text-1x1 mb-5 font-bold">I get multiple emails and messages per day asking:</h2>
@@ -24,8 +24,20 @@ const Home = () => {
         </h1>
 
         <h1 className="font-bold text-left px-8">HEAR ARE THE EXERCISE....▼</h1>
-
-        <Link to="/determinance" className='text-orange-700 hover:text-green-300 font-bold'> ◙ Step #1: Determine your starting point </Link>
+        <section>
+            <div className="card">
+                <h2>▼...▼...▼....▼....▼....▼</h2>
+                <p></p>
+                <button className="font-serif bg-blue-900 text-center mt-4 text-slate-50 hover:text-gray-300 border border-orange-500 rounded-lg">wanna read more!<Link to="/determinance" className='text-orange-700 hover:text-green-300 font-bold mb-5'>◙ Step #1: Determine your starting point  <img className="size-full" src="src\assets\muppet-strength-training.gif" alt="" /></Link></button>
+            </div>
+        </section>
+        <section>
+            <div className="card">
+                <h2>▼...▼...▼....▼....▼....▼</h2>
+                <p></p>
+                <button className="font-serif bg-blue-900 text-center mt-4 text-slate-50 hover:text-gray-300 border border-orange-500 rounded-lg">Book a Holiday!<Link to="/loose" className='text-orange-700 hover:text-green-300 font-bold mb-5 '> ◙ Step #2: “What exercises should I do to lose weight (or build muscle)?”<img src="src\assets\staci-form-check.webp" className='cardimage'></img> </Link></button>  
+            </div>      
+          </section>
 
       </div>
       <div className="flex-1 px-8">

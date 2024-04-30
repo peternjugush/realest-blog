@@ -1,22 +1,77 @@
-import react from "react";
+import React from 'react';
 
 const Footer = () => {
-    return <footer className="bg-orange-900 text-white">
-        <div className="md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
-            <h1 className="ig:text-4×1 text-3×1 md:mb-0 mb-6 lg:leading-normal font-semibold
-            md:w-2/5"><span className="text-orange-400">free</span>welcome to Realest Blog</h1>
-            <div>
-                <input type="text" placeholder="Enter your ph.NO" className="text-orange-400 
-                sm:w-72 w-full sm:mr-5 mr-1 lg:mb-4 py-2.5 rounded px-2 focus:outline-none" />
-                <button className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
-                rounded-md text-white md:w-auto w-full">
-                    Request Code
-                </button>
-            </div>
-
+  return (
+    <footer style={footerStyle}>
+      <div style={footerContentStyle}>
+        <div style={footerSectionStyle}>
+          <h2>About Realest Blog</h2>
+          <p>Your brief description about the blog goes here...</p>
+          <div style={contactStyle}>
+            <span>Contact Us:</span>
+            <p>contact@realestblog.com</p>
+          </div>
         </div>
-
+        <div style={footerSectionStyle}>
+          <h2>Quick Links</h2>
+          <ul style={listStyle}>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div style={footerSectionStyle}>
+          <h2>Follow Us</h2>
+          <div style={socialLinksStyle}>
+            <a href="#"><i className="fab fa-facebook"></i></a>
+            <a href="#"><i className="fab fa-twitter"></i></a>
+            <a href="#"><i className="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div style={footerBottomStyle}>
+        &copy; 2024 Realest Blog | Designed by [Your Name]
+      </div>
     </footer>
-}
+  );
+};
 
 export default Footer;
+
+const footerStyle = {
+  background: 'black',
+  color: 'orange',
+  padding: '50px 0',
+};
+
+const footerContentStyle = {
+  display: 'flex',
+  flexWrap: 'wrap',
+  justifyContent: 'space-between',
+};
+
+const footerSectionStyle = {
+  flex: 1,
+  marginRight: '20px',
+};
+
+const contactStyle = {
+  marginTop: '15px',
+};
+
+const listStyle = {
+  listStyle: 'none',
+  padding: 0,
+};
+
+const socialLinksStyle = {
+  display: 'flex',
+};
+
+const footerBottomStyle = {
+  marginTop: '20px',
+  textAlign: 'center',
+  background: '#444',
+  padding: '10px 0',
+};

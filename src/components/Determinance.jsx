@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Determinance = () =>{
     return (
-        <div className="scroll-pl-6 snap-x ... p-24 m-8">
+        <div className="scroll-pl-6 snap-x ... p-24 m-8 ">
            <p className=" text-2x1 text-base italic font-bold mb-7">Step #1: Determine Your Starting Point</p> 
            <iframe width="700" height="315" src="https://www.youtube.com/embed/K1xYlsfSoqY?si=UahiR7stNCdXqKby" 
            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
