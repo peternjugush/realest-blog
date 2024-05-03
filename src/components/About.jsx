@@ -1,7 +1,7 @@
 const About= () => {
     return (
 <div className="m-5 flex flex-wrap items-center justify-center">
-        <div className="flex-1 text-center">
+        <div className="flex-1 ">
           <h1 className="text-2xl mb-5 font-bold">welcome to REALEST-BLOG ...your ultimate fitness</h1>
           <p className="text-lg mb-3 text-orange-">we believe in keeping it real when it comes to health and wellness. <br /> 
           Here, you'll find tips, tricks, and motivation to help you,<br />

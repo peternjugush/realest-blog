@@ -25,7 +25,17 @@ const Loose = () =>{
          <p className="italic mb-6">😄Butt and hamstrings (back of your legs)</p>
          <p className="italic mb-6">😄Chest, shoulders, and triceps: (“push” muscles).</p>
          <p className="italic mb-6">😄Back, biceps, and grip ( “pull” muscles).</p>
-
+         <p className="mb-7"> <b >I have a trick for you: by targeting compound movements that recruit multiple muscles at the same time, you can build a full-body routine that uses only a handful of exercises.</b></p>
+         <p className="italic mb-6">How’s THAT for efficiency!?!</p>
+         <p className="mb-6">A compound exercise would be the yin to the yang of the isolation exercise.</p>
+         <p className="italic mb-6">Think of a push-up (compound):</p>
+          <img src="src\assets\steve-push-up.webp" alt="" />
+          <p className="mb-6">Compared to bicep curls through a machine (isolation):</p>
+          <img src="src\assets\bicep-curl.webp" alt="" />
+          <p className="italic mb-6"><b>Compound exercises have been found to result in improvements in aerobic endurance, muscular fitness, and flexibility, since you’re recruiting all sorts of muscle groups at once.</b></p>
+          <p className="italic mb-6">Isolation exercises, on the other hand, focus on single-joint movements targeting one specific muscle group, like the biceps curl above.</p>
+          <p className="italic mb-7">Both compound and isolation exercises have a time and place in your training program.</p>
+          <p className="italic mb-7">As you get more advanced, isolation exercises are great for targeting specific muscles to promote further strength or development. They can also help beginners who struggle to “feel” their muscles working in specific movements learn more body awareness and control</p>
         </div>
         
     );

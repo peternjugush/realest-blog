@@ -5,7 +5,7 @@ const Login = () =>{
     return (
         <GoogleLogin
         onSuccess={credentialResponse => {
-            const credentialResponseDecoded = jwt_decode(
+            const credentialResponseDecoded = jwtDecode(
                 credentialResponse.credential
             );
           console.log(credentialResponse);

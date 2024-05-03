@@ -58,9 +58,11 @@ const Determinance = () =>{
             <h1 className="text-2xl mb-5 font-bold mt-7"><b>As we cover “How Fast Can I Get the Body I Want,” make sure you are thinking about your journey with a realistic timeline:</b><br />
             </h1>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ieY_8ZL0v78?si=xa3F1tnn9gYqTdR1" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pbyBBCzXtnI?si=l4aeTpQ_qmrIH7lV" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+             referrerpolicy="strict-origin-when-cross-origin"
+             allowfullscreen></iframe>
              <h1 className="text-2xl mb-5 font-bold mt-7"><b>As we mention in that guide, here are some realistic timeframes for weight loss or muscle gain:</b></h1>
              <p className="text-lg mb-3 text-orange-500">For weight loss, a realistic rate is 0.5-1% of body weight per week. For example, if you weigh 200 pounds with a weight loss goal of 0.5% per week, your goal would be a 500-calorie-per-day deficit.</p>
              <p className="text-lg mb-3 text-orange-500">For muscle gain, a realistic rate is 0.25-0.5% of body weight per week. For example, if you weigh 200 pounds with a muscle gain goal of 0.25% per week, your goal would be a 250-calorie-per-day surplus</p>
@@ -70,7 +72,7 @@ const Determinance = () =>{
             <p className="text-2x1 text-base italic font-semibold mb-7">Why?</p>
             <p className="text-lg mb-3 text-green-500">Because according to ACSM, the #1 reason people don’t exercise is</p>
             <p className="text-2x1 text-base italic font-bold mb-7 text-orange-600">They don’t have time for it.</p>
-             <img src="src\assets\late.gif" alt="" />
+             <img src="src\assets\late.gif" alt="" className="max-w-md" />
              <p className="text-lg mb-3 text-green-500 italic font- text-center">All of us, all the time.</p>
              <h1 className="text-2xl mb-5 font-bold mt-7 text-yellow-600">BUT, with the information I’m hitting you with, technically you should have no excuse for not exercising unless (you’re injured or sick)</h1>
              <p className="text-2x1 text-base italic font-bold mb-7">After all, your workout:....▼ <br />
